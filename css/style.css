@@ -1,0 +1,550 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+/* Header */
+
+header.header-main {
+    width: 100%;
+    height: auto;
+    background-image: url('../img/imagem-de-banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+section.info-full .container {
+    padding: 0 10%;
+}
+.col-md-6.seedtime-logo img {
+    width: 45%;
+}
+
+section.info-full {
+    padding-top: 3%;
+    padding-bottom: 15%;
+}
+
+.col-md-6.btn-info-seed img {
+    float: right;
+    margin-right: 10%;
+    width: 30%;
+    position: relative;
+    left: 10%;
+}
+
+.col-md-12.information {
+    padding-top: 5%;
+}
+
+.col-md-12.information h1 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    padding-right: 50%;
+    margin-top: 5%;
+    line-height: 50px;
+}
+
+.col-md-12.information p {
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    font-size: 29px;
+    font-weight: 300;
+    padding-top: 0%;
+}
+
+.col-md-12.information img {
+    width: 20%;
+    float: left;
+    position: relative;
+    right: 1.5%;
+    padding-top: 2%;
+}
+
+/* Vídeo Section */
+
+section.video-info {
+    background-color: #242e33;
+    text-align: center;
+    padding-bottom: 5%;
+    font-family: 'Lato', sans-serif;
+}
+
+.col-md-12.video h2 {
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 85px 0;
+}
+
+.col-md-12.video img {
+    width: 15%;
+}
+
+/* Experiance */
+
+section.experience {
+    background-color: #213d4d;
+    color: #fff;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    padding: 5% 0;
+}
+
+section.experience h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 55px;
+    text-align: center;
+}
+
+.col-md-3.icons {
+    text-align: center;
+}
+
+.col-md-3.icons img {
+    max-width: 50% !important;
+    width: 35%;
+    height: auto;
+}
+
+p.title-icons {
+    padding-top: 15px;
+    font-size: 15px !important;
+}
+
+.col-md-3.icons p {
+    font-size: 12px;
+}
+
+/* Count Source */
+
+section.count-source {
+    background-color: #242e33;
+    color: #fff;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    padding: 5% 0;
+}
+
+
+p.number-count {
+    color: #efb485;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+img.img-download {
+    padding-top: 5%;
+    width: 15%;
+}
+
+/* Seedtime Feed App */
+
+section.python-app {
+    background-color: #213d4d;
+    color: #fff;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    padding: 5% 0;
+}
+
+section.python-app h2 {
+    font-size: 30px;
+    line-height: 15px;
+    font-weight: bold;
+}
+
+section.python-app img {
+    width: 15%;
+    padding-top: 5%;
+}
+
+/* Author */
+
+section.author {
+    background-color: #242e33;
+    color: #fff;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    padding: 5% 0;
+}
+
+section.author .well {
+    font-family: 'Lato', sans-serif;
+    background-color: #242e33;
+    border: #242e33;
+}
+
+.carousel-control {
+    padding-top:10%;
+    width:5%;
+    background-color: transparent;
+    background-image: none !important;
+    font-size: 45px;
+}
+
+.col-md-4.thumb-author img {
+    width: 35%;
+    text-align: center;
+    margin-left: 35%;
+    padding-bottom: 20px;
+}
+
+.carousel-inner {
+    padding-top: 5%;
+}
+
+.col-md-4.thumb-author p {
+    padding: 0px 60px;
+    text-align: center;
+}
+
+.col-md-4.thumb-author span {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.col-md-4.thumb-author a {
+    font-weight: bold;
+    color: #00ffe1;
+}
+
+/* Be Premium */
+
+section.premium {
+    background-color: #213d4d;
+    text-align: center;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    padding: 5% 0;
+}
+
+section.premium .container {
+    padding: 5% 5%;
+}
+
+section.premium img {
+    padding-top: 5%;
+}
+
+h2.our-plans {
+    padding: 5% 0;
+}
+
+section.premium h1 {
+    padding-bottom: 10%;
+}
+
+img.icons-premium {
+    width: 30%;
+    padding-bottom: 10%;
+}
+
+img.plans {
+    width: 75%;
+    margin-top: 10%;
+}
+
+.col-md-4.premium p {
+    padding: 0 10%;
+    font-size: 13px;
+}
+
+.col-md-4.premium h4 {
+    font-weight: bold;
+}
+
+p.terms {
+    font-size: 12px;
+    padding-top: 5%;
+}
+
+/*  our listeners */
+
+section.listeners {
+    background-color: #242e33;
+    text-align: center;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    padding: 5% 0;
+}
+
+section.listeners h1 {
+    padding-bottom: 5%;
+}
+
+section.listeners img {
+    width: 100%;
+}
+
+
+/* ICL knowledge */
+
+section.iclknowledge {
+    background-color: #213d4d;
+    text-align: center;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    padding: 5% 0;
+}
+
+.col-md-6.text-left h2 {
+    padding: 3% 0;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.col-md-6.text-left p {
+    font-size: 19px;
+    padding: 3% 0;
+}
+
+.col-md-6.img-right img {
+    width: 100%;
+}
+
+.col-md-6.text-left h2 {
+    padding: 0% 0;
+    font-weight: bold;
+    font-size: 33px;
+}
+
+
+/* Footer */
+
+footer.footer {
+    background-color: #242e33;
+    text-align: center;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    padding: 5% 0;
+}
+
+.col-md-6.terms-copy {
+    padding-top: 5%;
+}
+
+.col-md-3.footer.logo img {
+    width: 50%;
+}
+
+.col-md-3.footer h4 {
+    color: #00ffe1;
+    font-weight: bold;
+}
+
+.col-md-3.footer.author {
+    text-align: left;
+}
+
+.col-md-3.footer.author p {
+    padding: 5% 0%;
+    color: #fff;
+    font-size: 16px;
+}
+
+.col-md-3.footer.author p a {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.col-md-3.footer.menu {
+    text-align: left;
+}
+
+.col-md-3.footer.menu ul li {
+    list-style: none;
+    padding: 6.5% 0%;
+    font-size: 16px;
+}
+
+.col-md-3.footer.menu ul {
+    padding: 0;
+
+}
+
+.col-md-3.footer.menu ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+img.ico-social {
+    width: 15% !important;
+    margin: 5% 5%;
+}
+
+img.store-img {
+    width: 100% !important;
+    margin: 10% 5%;
+}
+
+.col-md-6.terms-copy a {
+    color: #00ffe1;
+    text-decoration: none;
+    padding: 0% 5%;
+}
+
+
+/* Mobile */
+
+@media only screen and (max-width: 600px) {
+    body {
+      width: 100%;
+    }
+
+    /* Header */
+
+    header.header-main {
+        background-position: center;
+    }
+
+    .col-md-6.seedtime-logo img {
+        width: 35%;
+    }
+
+    .col-md-6.seedtime-logo {
+        text-align: center;
+        padding: 10% 0;
+    }
+
+    .col-md-6.seedtime-logo img {
+        width: 60%;
+    }
+
+    .col-md-6.btn-info-seed img {
+        width: 35%;
+        left: 0%;
+    }
+
+    .col-md-12.information h1 {
+        font-size: 25px;
+        line-height: 35px;
+        padding-right: 0%;
+    }
+    .col-md-12.information p {
+        font-size: 15px;
+    }
+    .col-md-12.information img {
+        width: 30%;
+    }
+
+    /* Vídeo */
+
+    .col-md-12.video h2 {
+        padding: 35px 0;
+    }
+
+    iframe {
+        height: 270px;
+        width: 100%;
+    }
+
+    .col-md-12.video img {
+        width: 30%;
+    }
+
+    /* Experience */
+
+    section.experience h1 {
+        font-size: 20px;
+    }
+
+    .col-md-3.icons {
+        padding: 5% 0px;
+    }
+
+
+    /* Count Soucer */
+
+    section.count-source {
+        padding: 20% 0px;
+    }
+
+    .col-md-6.count {
+        padding: 10% 0;
+    }
+
+    img.img-download {
+        width: 30%;
+    }
+
+    /* App Python Section */
+
+    section.python-app h2 {
+        font-size: 17px;
+        line-height: 10px;
+        font-weight: bold;
+    }
+
+    section.python-app img {
+        width: 30%;
+        padding-top: 15%;
+    }
+
+    /* Autores */
+
+    .carousel-control {
+        top: 40%;
+    }
+
+    section.author img {
+        width: 35%;
+    }
+
+    /* Be Premium */
+
+    section.premium {
+        padding: 10% 0;
+    }
+
+    section.premium h1 {
+        font-size: 25px;
+    }
+
+    /* ICL Knowledge */
+
+    section.iclknowledge {
+        padding: 10% 2%;
+    }
+
+    .col-md-6.text-left {
+        padding-bottom: 15%;
+    }
+
+    /* Footer */
+
+    .col-md-3.footer.logo {
+        padding-bottom: 10%;
+    }
+
+    .col-md-3.footer.author,
+    .col-md-3.footer.menu {
+        text-align: center;
+    }
+
+    .col-md-3.footer.menu{
+        padding-top: 5%;
+    }
+
+    .col-md-6.text-left p {
+        text-align: justify;
+    }
+
+    .col-md-6.text-left br {
+        display: none;
+    }
+
+    header.header-main {
+        width: 100%;
+        height: auto;
+        background-image: url(../img/img-responsive-seedtime.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+  }
