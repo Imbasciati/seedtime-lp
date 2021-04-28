@@ -314,6 +314,68 @@ section.iclknowledge {
 }
 
 
+/* Our Mission Page */
+
+
+header.our-mission {
+    background-color: #242e33;
+}
+
+
+.col-md-6.logo img {
+    width: 30%;
+    margin: 5% 10%;
+}
+
+section.text-our-mission {
+    background-color: #213d4d;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 5% !important;
+}
+
+.col-md-6.home a {
+    text-align: center;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.col-md-6.home h1 {
+    font-size: 20px;
+    float: right;
+    position: relative;
+    top: 20%;
+    right: 10%;
+}
+
+section.text-our-mission h1 {
+    text-align: center;
+    padding: 3% 0%;
+}
+
+.col-md-6.text p {
+    font-size: 22px;
+    padding: 5% 5%;
+    text-align: left;
+    line-height: 35px;
+}
+
+
+/* Be an Author */
+
+.col-md-6.text-autor p {
+    font-size: 22px;
+    padding: 2% 5%;
+    text-align: left;
+    line-height: 35px;
+}
+
 /* Footer */
 
 footer.footer {
@@ -387,6 +449,11 @@ img.store-img {
     color: #00ffe1;
     text-decoration: none;
     padding: 0% 5%;
+}
+
+.col-md-6.text-autor img {
+    position: relative;
+    left: 5%;
 }
 
 
@@ -545,6 +612,18 @@ img.store-img {
         background-image: url(../img/img-responsive-seedtime.png);
         background-repeat: no-repeat;
         background-size: cover;
+    }
+
+    .col-md-6.author img {
+        width: 100%;
+        padding: 5%;
+    }
+    .col-md-6.mission img {
+        width: 100%;
+        padding: 5% 0;
+    }
+    img.download-img {
+        width: 40%;
     }
     
   }
